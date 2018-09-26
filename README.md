@@ -8,6 +8,7 @@ that some of the smaller ones disappear).
 
   $ ./state-server &
   [1] 21507
+  
   $ curl  -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/
   ["Pennsylvania"]
   $
